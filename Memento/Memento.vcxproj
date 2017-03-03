@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Caretaker.h" />
+    <ClInclude Include="Memento.h" />
+    <ClInclude Include="Originator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Caretaker.cpp" />
+    <ClCompile Include="Memento.cpp" />
+    <ClCompile Include="MementoRunner.cpp" />
+    <ClCompile Include="Originator.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{ED778435-7548-4AA7-A753-1D92762D9A6E}</ProjectGuid>
     <RootNamespace>Memento</RootNamespace>
@@ -109,8 +120,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
